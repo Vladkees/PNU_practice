@@ -6,15 +6,11 @@ import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import java.io.File;
 public class HelloController {
-    @FXML
-    private Label enterText;
+
     @FXML
     private Label uploadText;
 
-    @FXML
-    protected void onEnterButtonClick() {
-        enterText.setText("Welcome to JavaFX Application!");
-    }
+
 
     @FXML
     protected void onUploadButtonClick() {
